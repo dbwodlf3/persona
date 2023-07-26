@@ -12,7 +12,8 @@
   "scripts": {
     "test": "npx jest --config ./packages/persona/test/jest.unit.json",
     "test:persona": "npx jest --config ./packages/persona/test/jest.unit.json",
-    "test:agent": "npx jest --config ./packages/agent/test/jest.unit.json"
+    "test:agent": "npx jest --config ./packages/agent/test/jest.unit.json",
+    "test:example:code-review": "npx jest --config ./docs/example/test/jest.unit.json"
   },
   "author": "",
   "license": "ISC",

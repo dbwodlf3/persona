@@ -1,0 +1,14 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Description about this project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
