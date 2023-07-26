@@ -1,0 +1,23 @@
+{
+  "name": "persona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "npx jest --config ./packages/persona/test/jest.unit.json",
+    "test:persona": "npx jest --config ./packages/persona/test/jest.unit.json",
+    "test:agent": "npx jest --config ./packages/agent/test/jest.unit.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
