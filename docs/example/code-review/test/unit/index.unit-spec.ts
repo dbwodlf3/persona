@@ -1,3 +1,7 @@
+import { AngryDeveloper } from "../../src/persona/angry-developer";
+import { makePersonaString } from "../../../../../packages/persona/src/persona";
+import { DefaultPersona } from "../../src/persona/default-persona";
+
 describe("Code Review Agora Test", ()=>{
     describe("Github API", ()=>{
         test.skip("should read a file", ()=>{})
@@ -34,4 +38,11 @@ describe("Code Review Agora Test", ()=>{
 
         test.skip("should response from mention", ()=>{})
     });
+
+    describe("Perosnas", ()=>{
+        it("Print personas",()=>{
+            console.log(makePersonaString(AngryDeveloper).join("\n"));
+            console.log(makePersonaString(DefaultPersona).join("\n"));
+        })
+    })
 });
